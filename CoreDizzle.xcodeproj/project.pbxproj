@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003B2229191AD92B008ADD86 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B2228191AD92B008ADD86 /* Album.m */; };
+		003B222C191AD92B008ADD86 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B222B191AD92B008ADD86 /* Artist.m */; };
+		003B222F191AD92B008ADD86 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B222E191AD92B008ADD86 /* Song.m */; };
+		003B2232191AE1AE008ADD86 /* SongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B2231191AE1AE008ADD86 /* SongViewController.m */; };
+		00F77347191AD4EB008D29D2 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F77346191AD4EB008D29D2 /* AlbumViewController.m */; };
 		00FB4020191A960100B86BD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FB401F191A960100B86BD5 /* Foundation.framework */; };
 		00FB4022191A960100B86BD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FB4021191A960100B86BD5 /* CoreGraphics.framework */; };
 		00FB4024191A960100B86BD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FB4023191A960100B86BD5 /* UIKit.framework */; };
@@ -21,6 +26,10 @@
 		00FB4041191A960100B86BD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FB4023191A960100B86BD5 /* UIKit.framework */; };
 		00FB4049191A960100B86BD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FB4047191A960100B86BD5 /* InfoPlist.strings */; };
 		00FB404B191A960100B86BD5 /* CoreDizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB404A191A960100B86BD5 /* CoreDizzleTests.m */; };
+		00FB4056191A962F00B86BD5 /* AppDelegate+CoreDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB4055191A962F00B86BD5 /* AppDelegate+CoreDataContext.m */; };
+		00FB4059191A9B8A00B86BD5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00FB4057191A9B8A00B86BD5 /* Model.xcdatamodeld */; };
+		00FB405F191A9DD900B86BD5 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB405E191A9DD900B86BD5 /* Label.m */; };
+		00FB4062191AAD8900B86BD5 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB4061191AAD8900B86BD5 /* ArtistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003B2227191AD92B008ADD86 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		003B2228191AD92B008ADD86 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		003B222A191AD92B008ADD86 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		003B222B191AD92B008ADD86 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		003B222D191AD92B008ADD86 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		003B222E191AD92B008ADD86 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		003B2230191AE1AE008ADD86 /* SongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongViewController.h; sourceTree = "<group>"; };
+		003B2231191AE1AE008ADD86 /* SongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongViewController.m; sourceTree = "<group>"; };
+		00F77345191AD4EB008D29D2 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		00F77346191AD4EB008D29D2 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 		00FB401C191A960100B86BD5 /* CoreDizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FB401F191A960100B86BD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00FB4021191A960100B86BD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +72,13 @@
 		00FB4046191A960100B86BD5 /* CoreDizzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDizzleTests-Info.plist"; sourceTree = "<group>"; };
 		00FB4048191A960100B86BD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FB404A191A960100B86BD5 /* CoreDizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDizzleTests.m; sourceTree = "<group>"; };
+		00FB4054191A962F00B86BD5 /* AppDelegate+CoreDataContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+CoreDataContext.h"; path = "../AppDelegate+CoreDataContext.h"; sourceTree = "<group>"; };
+		00FB4055191A962F00B86BD5 /* AppDelegate+CoreDataContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+CoreDataContext.m"; path = "../AppDelegate+CoreDataContext.m"; sourceTree = "<group>"; };
+		00FB4058191A9B8A00B86BD5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		00FB405D191A9DD900B86BD5 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Label.h; path = ../Label.h; sourceTree = "<group>"; };
+		00FB405E191A9DD900B86BD5 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Label.m; path = ../Label.m; sourceTree = "<group>"; };
+		00FB4060191AAD8900B86BD5 /* ArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
+		00FB4061191AAD8900B86BD5 /* ArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +138,28 @@
 		00FB4025191A960100B86BD5 /* CoreDizzle */ = {
 			isa = PBXGroup;
 			children = (
+				00FB4054191A962F00B86BD5 /* AppDelegate+CoreDataContext.h */,
+				00FB4055191A962F00B86BD5 /* AppDelegate+CoreDataContext.m */,
+				00FB4057191A9B8A00B86BD5 /* Model.xcdatamodeld */,
+				003B222D191AD92B008ADD86 /* Song.h */,
+				003B222E191AD92B008ADD86 /* Song.m */,
+				003B222A191AD92B008ADD86 /* Artist.h */,
+				003B222B191AD92B008ADD86 /* Artist.m */,
+				003B2227191AD92B008ADD86 /* Album.h */,
+				003B2230191AE1AE008ADD86 /* SongViewController.h */,
+				003B2231191AE1AE008ADD86 /* SongViewController.m */,
+				003B2228191AD92B008ADD86 /* Album.m */,
+				00FB405D191A9DD900B86BD5 /* Label.h */,
+				00FB405E191A9DD900B86BD5 /* Label.m */,
 				00FB402E191A960100B86BD5 /* AppDelegate.h */,
 				00FB402F191A960100B86BD5 /* AppDelegate.m */,
 				00FB4031191A960100B86BD5 /* Main.storyboard */,
+				00F77345191AD4EB008D29D2 /* AlbumViewController.h */,
+				00F77346191AD4EB008D29D2 /* AlbumViewController.m */,
 				00FB4034191A960100B86BD5 /* ViewController.h */,
 				00FB4035191A960100B86BD5 /* ViewController.m */,
+				00FB4060191AAD8900B86BD5 /* ArtistViewController.h */,
+				00FB4061191AAD8900B86BD5 /* ArtistViewController.m */,
 				00FB4037191A960100B86BD5 /* Images.xcassets */,
 				00FB4026191A960100B86BD5 /* Supporting Files */,
 			);
@@ -249,9 +292,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003B222F191AD92B008ADD86 /* Song.m in Sources */,
 				00FB4036191A960100B86BD5 /* ViewController.m in Sources */,
 				00FB4030191A960100B86BD5 /* AppDelegate.m in Sources */,
+				00FB4059191A9B8A00B86BD5 /* Model.xcdatamodeld in Sources */,
+				00FB405F191A9DD900B86BD5 /* Label.m in Sources */,
 				00FB402C191A960100B86BD5 /* main.m in Sources */,
+				00FB4056191A962F00B86BD5 /* AppDelegate+CoreDataContext.m in Sources */,
+				00F77347191AD4EB008D29D2 /* AlbumViewController.m in Sources */,
+				00FB4062191AAD8900B86BD5 /* ArtistViewController.m in Sources */,
+				003B2232191AE1AE008ADD86 /* SongViewController.m in Sources */,
+				003B222C191AD92B008ADD86 /* Artist.m in Sources */,
+				003B2229191AD92B008ADD86 /* Album.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +508,7 @@
 				00FB4050191A960100B86BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00FB4051191A960100B86BD5 /* Build configuration list for PBXNativeTarget "CoreDizzleTests" */ = {
 			isa = XCConfigurationList;
@@ -464,8 +517,23 @@
 				00FB4053191A960100B86BD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00FB4057191A9B8A00B86BD5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00FB4058191A9B8A00B86BD5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 00FB4058191A9B8A00B86BD5 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 00FB4014191A960100B86BD5 /* Project object */;
 }
