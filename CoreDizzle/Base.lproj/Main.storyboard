@@ -57,7 +57,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cGr-AV-dKC"/>
+                    <navigationItem key="navigationItem" id="cGr-AV-dKC">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="H3o-Gx-kAC">
+                            <connections>
+                                <action selector="addLabel:" destination="vXZ-lx-hvc" id="zY5-yl-63e"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="1LW-oy-PXs" id="12d-P4-Fhu"/>
                     </connections>
